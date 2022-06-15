@@ -1,0 +1,15 @@
+.example-card {
+    width: 200px;
+  }
+
+  .example-title {
+    color:#fff;
+    background-color: #424242;
+    padding: 0.5em 0 0.5em 0;
+    width: 100%;
+    text-align:center;
+}
+
+.grid-list{
+  background-color: whitesmoke;
+}

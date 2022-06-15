@@ -1,0 +1,16 @@
+<h1 class="example-title">Arenas e Estádios do Brasil</h1>
+<mat-grid-list class="grid-list" cols="4" rowHeight="400">
+  <mat-grid-tile *ngFor="let estadiosArenas of estadios" [routerLink]="['/details', estadiosArenas.id]">
+      <mat-card class="example-card">
+        <mat-card-header>
+          <mat-card-title>{{estadiosArenas.name}}</mat-card-title>
+        </mat-card-header>
+        <img mat-card-image src="{{estadiosArenas.image}}" alt="{{estadiosArenas.name}}">
+        <mat-card-content>
+          <p>
+            {{estadiosArenas.location}}
+          </p>
+        </mat-card-content>
+      </mat-card>
+  </mat-grid-tile>
+</mat-grid-list>

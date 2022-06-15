@@ -1,4 +1,3 @@
-# AngularListMaps
 # Arenas e Estádios do Brasil
 
 Para rodar localmente:

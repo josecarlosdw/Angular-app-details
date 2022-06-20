@@ -1,9 +1,9 @@
-# Arenas e Estádios do Brasil
+## Arenas e Estádios do Brasil
 
-# Para rodar localmente:
+## Para rodar localmente:
 
-# Clone this repo
-# Run npm install
-# Run ng serve
+1. Clone this repo
+2. Run npm install
+3. Run ng serve
 
-# online: http://arenas-estadios-brasil.vercel.app/
+## online: http://arenas-estadios-brasil.vercel.app/
